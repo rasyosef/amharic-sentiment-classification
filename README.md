@@ -1,6 +1,8 @@
 ### Amharic Sentiment Classification
 
-The following models were finetuned using the [amharic-sentiment](https://huggingface.co/datasets/rasyosef/amharic-sentiment) dataset. The reported precision, recall, and f1 metrics are macro averages.
+The following models were finetuned using the [amharic-sentiment](https://huggingface.co/datasets/rasyosef/amharic-sentiment) dataset. The *finetuning notebooks* can be found in the `notebooks` folder. 
+
+The reported precision, recall, and f1 metrics are macro averages.
 
 |Model|Size (# params)| Accuracy | Precision | Recall | F1 |
 | --- | ------------- | -------- | --------- | ------ | -- |
