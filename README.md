@@ -12,3 +12,6 @@ The reported precision, recall, and f1 metrics are macro averages.
 |[bert-tiny-amharic](https://huggingface.co/rasyosef/bert-tiny-amharic)|4.18M|0.79|0.79|0.79|0.79|
 |[xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base)|279M|0.83|0.83|0.83|0.83|
 |[am-roberta](https://huggingface.co/uhhlt/am-roberta)|443M|0.82|0.83|0.82|0.82|
+
+### References
+
