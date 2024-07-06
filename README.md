@@ -15,3 +15,4 @@ The reported precision, recall, and f1 metrics are macro averages.
 
 ### References
 
+[Fine-tuning a model with the Trainer API](https://huggingface.co/learn/nlp-course/chapter3/3?fw=pt)
