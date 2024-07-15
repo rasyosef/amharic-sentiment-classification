@@ -13,6 +13,23 @@ The reported precision, recall, and f1 metrics are macro averages.
 |[xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base)|279M|0.83|0.83|0.83|0.83|
 |[am-roberta](https://huggingface.co/uhhlt/am-roberta)|443M|0.82|0.83|0.82|0.82|
 
+### Fine-tuned Model
+A finetuned `bert-medium-amharic` model is available on HuggingFace:
+
+[rasyosef/bert-medium-amharic-finetuned-sentiment](https://huggingface.co/rasyosef/bert-medium-amharic-finetuned-sentiment)
+
+#### How to use
+You can use the model directly with a pipeline for text classification:
+
+```python
+>>> from transformers import pipeline
+>>> bert_sentiment = pipeline("text-classification", model="rasyosef/bert-medium-amharic-finetuned-sentiment")
+>>> bert_sentiment(["አሪፍ ፊልም ነው።", "ዩክሬን እና ሩስያ ከባድ ውግያ ላይ ናቸው።"])
+
+[{'label': 'positive', 'score': 0.9863048791885376},
+ {'label': 'negative', 'score': 0.9570127129554749}]
+```
+
 ### References
 
 [Fine-tuning a model with the Trainer API](https://huggingface.co/learn/nlp-course/chapter3/3?fw=pt)
