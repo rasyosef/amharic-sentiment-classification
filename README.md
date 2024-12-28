@@ -6,11 +6,14 @@ The reported precision, recall, and f1 metrics are macro averages.
 
 |Model|Size (# params)| Accuracy | Precision | Recall | F1 |
 | --- | ------------- | -------- | --------- | ------ | -- |
+|[roberta-base-amharic](https://huggingface.co/rasyosef/roberta-base-amharic)|110M|**0.88**|**0.88**|**0.88**|**0.88**|
 |[bert-medium-amharic](https://huggingface.co/rasyosef/bert-medium-amharic)|40.5M|0.83|0.83|0.82|0.83|
 |[bert-small-amharic](https://huggingface.co/rasyosef/bert-small-amharic)|27.8M|0.83|0.83|0.82|0.83|
 |[bert-mini-amharic](https://huggingface.co/rasyosef/bert-mini-amharic)|10.7M|0.81|0.81|0.81|0.81|
 |[bert-tiny-amharic](https://huggingface.co/rasyosef/bert-tiny-amharic)|4.18M|0.79|0.79|0.79|0.79|
 |[xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base)|279M|0.83|0.83|0.83|0.83|
+|[afro-xlmr-base](https://huggingface.co/Davlan/afro-xlmr-base)|278M|0.83|0.83|0.83|0.83|
+|[afro-xlmr-large](https://huggingface.co/Davlan/afro-xlmr-large)|560M|0.86|0.86|0.86|0.86|
 |[am-roberta](https://huggingface.co/uhhlt/am-roberta)|443M|0.82|0.83|0.82|0.82|
 
 ### Fine-tuned Model
